@@ -241,4 +241,33 @@
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
+  /* Penyesuaian ukuran foto profil di mobile */
+  .profile-avatar {
+    width: 100px; /* Ukuran lebih kecil untuk mobile */
+    height: 100px;
+    margin-bottom: 0.5rem; /* Sesuaikan margin */
+  }
+
+  /* Penyesuaian untuk Project Cards di mobile */
+  .project-card {
+    text-align: center; /* Pusatkan konten di dalam kartu */
+  }
+
+  .project-icon {
+    margin-left: auto; /* Pusatkan ikon secara horizontal */
+    margin-right: auto;
+  }
+
+  .project-card h3 {
+    font-size: 1.3rem; /* Kecilkan ukuran judul project */
+  }
+
+  .project-card p {
+    font-size: 0.9rem; /* Kecilkan ukuran deskripsi project */
+  }
+
+  .project-tech span {
+    font-size: 0.75rem; /* Kecilkan ukuran tag teknologi */
+  }
 }
